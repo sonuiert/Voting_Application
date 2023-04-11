@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    label 'upgrad'
+    label 'worker'
   }
   stages {
     stage('Git Checkout') {
